@@ -1,0 +1,273 @@
+Example 1
+
+
+acherontas@raspberrypi:~/codeblock/DR_PR_arm64/bin/Debug $ ./DR_PR_arm64 98621 12789 15 1 1
+first is number, second is the number tis diairesis , tritos einai to precision ton dekadikon [default pre == 9] 
+tetartos gia analisi apotelesmaton vimaton , pemptos gia emfanisi apotelesmaton dekadikon [1 :on 2:off] 
+ 
+voyeristic behaviours and others have fun xD
+
+|--------------------------------------------------------------------------------------------------------------------------------------|
+| 0 Number 9 | | 1 Number 8 | | 2 Number 6 | | 3 Number 2 | | 4 Number 1 | 
+|--------------------------------------------------------------------------------------------------------------------------------------|
+
+
+result is from rst instant 7.71139260301822
+result is from rst after mb 7.71139260301822 and 
+pre as 7.71139260301822 and result for int is 771
+
+--> With 98621 and size of 1 and precision of 15
+The Result is 771 and 7.71 and sum of 15 with 6 
+
+-------------------------->      Entering the loop 
+with lm as 4 and m 1
+
+entering with lm 4 creating size of 4
+0 With selected number 9 and 4 created number 10000 
+result is from rst instant 7.03729767769177
+result is from rst after mb 7.03729767769177 and 
+pre as 7.03729767769177 and result for int is 703
+
+---------------->
+Semi Result is : 703 with float[10] : 70.3  sum of float[10] : 70.3
+and float[100] : 7.03 and sum of float[100] : 7.03
+sum of ints : 703 <----------------
+with Result one : 1
+
+entering with lm 3 creating size of 3
+1 With selected number 8 and 3 created number 1000 
+result is from rst instant 0.625537571350379
+result is from rst after mb 0.625537571350379 and 
+pre as 0.625537571350379 and result for int is 62
+
+---------------->
+Semi Result is : 62 with float[10] : 6.2  sum of float[10] : 76.5
+and float[100] : 0.62 and sum of float[100] : 7.65
+sum of ints : 765 <----------------
+with Result one : 8
+
+entering with lm 2 creating size of 2
+2 With selected number 6 and 2 created number 100 
+result is from rst instant 0.0469153178512784
+result is from rst after mb 0.046915317851278 and 
+pre as 0.046915317851278 and result for int is 4
+
+---------------->
+Semi Result is : 4 with float[10] : 0.4  sum of float[10] : 76.9
+and float[100] : 0.04 and sum of float[100] : 7.69
+sum of ints : 769 <----------------
+with Result one : 4
+
+entering with lm 1 creating size of 1
+3 With selected number 2 and 1 created number 10 
+result is from rst instant 0.00156384392837595
+result is from rst after mb 0.001563843928376 and 
+pre as 0.001563843928376 and result for int is 0
+
+---------------->
+Semi Result is : 0 with float[10] : 0  sum of float[10] : 76.9
+and float[100] : 0 and sum of float[100] : 7.69
+sum of ints : 769 <----------------
+with Result one : 0
+
+entering with lm 0 creating size of 0
+4 With selected number 1 and 0 created number 1 
+result is from rst instant 7.81921964187974e-05
+result is from rst after mb 7.8192196419e-05 and 
+pre as 7.8192196419e-05 and result for int is 0
+
+---------------->
+Semi Result is : 0 with float[10] : 0  sum of float[10] : 76.9
+and float[100] : 0 and sum of float[100] : 7.69
+sum of ints : 769 <----------------
+with Result one : 0
+
+
+                               Exiting the loop      <--------------------------
+
+Sub-Part 76.9 with full int as 769 with sum of digits 22 and full sum 4 
+Sub-Part 2 of ones 13 with 4 and 6 
+
+**************************RESULT****************************************************
+  |For number 98621 with 12789 and size 5|
+  |-> The Result is 771 and 7.71 and sum of 15 with 6|
+  |--------------------------------------------------------------|
+  |with 7.71 and sum of float[100] : 7.69 or (769)|
+  |and sum of float[10] | 76.9-------|
+  |--------------------------------------------------------------|
+  |---------and diafora :=~ 0.0199999999999996 or :=~ 2----------------|
+  |----------------------with------------------------------------|
+  |order one = 15
+  |--------------------------------------------------------------|
+  |order two = 22
+  |--------------------------------------------------------------|
+  |order_three  = 13
+  |-----------------------and------------------------------------|
+  | r one | = 2
+  |--------------------------------------------------------------|
+  |r_two = 9
+  |--------------------------------------------------------------|
+  |and r_three = 7
+  |--------------------------------------------------------------|
+  |rf = 7
+  |--------------------------------------------------------------|
+  |--------------------for summaries-----------------------------|
+  |--------------------------------------------------------------|
+  |order one = 6
+  |--------------------------------------------------------------|
+  |order two = 4
+  |--------------------------------------------------------------|
+  |order_three = 4
+  |--------------------------------------------------------------|
+  | r one | = 2
+  |--------------------------------------------------------------|
+  |r_two = 0
+  |--------------------------------------------------------------|
+  |and r_three = 2
+  |--------------------------------------------------------------|
+  |rf = 2
+  |--------------------------------------------------------------|
+  |----------------------end of summaries------------------------|
+  |--------------------------------------------------------------|
+  |Sinola : 0.0199999999999996-----------------------------------------|
+  |-------------------------- r_one 2---------------------------|
+  |--------------------------------------------------------------|
+  |-------------------------- rf_one 7--------------------------|
+  |--------------------------------------------------------------|
+  |-------------------------- rf_last 2--------------------------|
+  |______________________________________________________________|
+*************************END OF RESULT********************************************
+  |------------use analytics for more information----------------|
+
+
+
+Example 2 
+
+
+acherontas@raspberrypi:~/codeblock/DR_PR_arm64/bin/Debug $ ./DR_PR_arm64 2785 12789 15 1 1
+first is number, second is the number tis diairesis , tritos einai to precision ton dekadikon [default pre == 9] 
+tetartos gia analisi apotelesmaton vimaton , pemptos gia emfanisi apotelesmaton dekadikon [1 :on 2:off] 
+ 
+voyeristic behaviours and others have fun xD
+
+|--------------------------------------------------------------------------------------------------------------------------------------|
+| 0 Number 2 | | 1 Number 7 | | 2 Number 8 | | 3 Number 5 | 
+|--------------------------------------------------------------------------------------------------------------------------------------|
+
+
+result is from rst instant 0.217765267026351
+result is from rst after mb 0.217765267026351 and 
+pre as 0.217765267026351 and result for int is 21
+
+--> With 2785 and size of 2 and precision of 15
+The Result is 21 and 0.21 and sum of 3 with 6 
+
+-------------------------->      Entering the loop 
+with lm as 3 and m 2
+
+entering with lm 3 creating size of 3
+0 With selected number 2 and 3 created number 1000 
+result is from rst instant 0.156384392837595
+result is from rst after mb 0.156384392837595 and 
+pre as 0.156384392837595 and result for int is 15
+
+---------------->
+Semi Result is : 15 with float[10] : 1.5  sum of float[10] : 1.5
+and float[100] : 0.15 and sum of float[100] : 0.15
+sum of ints : 15 <----------------
+with Result one : 6
+
+entering with lm 2 creating size of 2
+1 With selected number 7 and 2 created number 100 
+result is from rst instant 0.0547345374931582
+result is from rst after mb 0.054734537493158 and 
+pre as 0.054734537493158 and result for int is 5
+
+---------------->
+Semi Result is : 5 with float[10] : 0.5  sum of float[10] : 2
+and float[100] : 0.05 and sum of float[100] : 0.2
+sum of ints : 20 <----------------
+with Result one : 5
+
+entering with lm 1 creating size of 1
+2 With selected number 8 and 1 created number 10 
+result is from rst instant 0.00625537571350379
+result is from rst after mb 0.006255375713504 and 
+pre as 0.006255375713504 and result for int is 0
+
+---------------->
+Semi Result is : 0 with float[10] : 0  sum of float[10] : 2
+and float[100] : 0 and sum of float[100] : 0.2
+sum of ints : 20 <----------------
+with Result one : 0
+
+entering with lm 0 creating size of 0
+3 With selected number 5 and 0 created number 1 
+result is from rst instant 0.000390960982093987
+result is from rst after mb 0.000390960982094 and 
+pre as 0.000390960982094 and result for int is 0
+
+---------------->
+Semi Result is : 0 with float[10] : 0  sum of float[10] : 2
+and float[100] : 0 and sum of float[100] : 0.2
+sum of ints : 20 <----------------
+with Result one : 0
+
+
+                               Exiting the loop      <--------------------------
+
+Sub-Part 2 with full int as 20 with sum of digits 2 and full sum 0 
+Sub-Part 2 of ones 11 with 2 and 6 
+
+**************************RESULT****************************************************
+  |For number 2785 with 12789 and size 4|
+  |-> The Result is 21 and 0.21 and sum of 3 with 6|
+  |--------------------------------------------------------------|
+  |with 0.21 and sum of float[100] : 0.2 or (20)|
+  |and sum of float[10] | 2-------|
+  |--------------------------------------------------------------|
+  |---------and diafora :=~ 0.00999999999999998 or :=~ 1----------------|
+  |----------------------with------------------------------------|
+  |order one = 3
+  |--------------------------------------------------------------|
+  |order two = 2
+  |--------------------------------------------------------------|
+  |order_three  = 11
+  |-----------------------and------------------------------------|
+  | r one | = 8
+  |--------------------------------------------------------------|
+  |r_two = 9
+  |--------------------------------------------------------------|
+  |and r_three = 1
+  |--------------------------------------------------------------|
+  |rf = 1
+  |--------------------------------------------------------------|
+  |--------------------for summaries-----------------------------|
+  |--------------------------------------------------------------|
+  |order one = 6
+  |--------------------------------------------------------------|
+  |order two = 0
+  |--------------------------------------------------------------|
+  |order_three = 2
+  |--------------------------------------------------------------|
+  | r one | = 4
+  |--------------------------------------------------------------|
+  |r_two = 2
+  |--------------------------------------------------------------|
+  |and r_three = 6
+  |--------------------------------------------------------------|
+  |rf = 2
+  |--------------------------------------------------------------|
+  |----------------------end of summaries------------------------|
+  |--------------------------------------------------------------|
+  |Sinola : 0.00999999999999998-----------------------------------------|
+  |-------------------------- r_one 8---------------------------|
+  |--------------------------------------------------------------|
+  |-------------------------- rf_one 1--------------------------|
+  |--------------------------------------------------------------|
+  |-------------------------- rf_last 2--------------------------|
+  |______________________________________________________________|
+*************************END OF RESULT********************************************
+  |------------use analytics for more information----------------|
+
+
